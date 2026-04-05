@@ -25,9 +25,9 @@ Solución técnica desarrollada para **ZAP ARQUITECTOS**, diseñada para la vali
 ## 📄 Documentación Obligatoria
 Para cumplir con los requerimientos de la prueba técnica, se adjuntan los siguientes informes detallados (haga clic para abrir):
 
-* <a href="https://github.com/Nico-Segovia/ZapAnalyzer.Desktop/blob/main/docs/PROCESO_RESOLUCION.md" target="_blank"><b>Informe de Proceso de Resolución</b></a>: Decisiones de diseño, arquitectura y lógica espacial.
+* <a href="https://github.com/Nico-Segovia/ZapAnalyzer.Desktop/blob/main/docs/PPROCESO_RESOLUCION.md" target="_blank"><b>Informe de Proceso de Resolución (PPROCESO_RESOLUCION)</b></a>: Decisiones de diseño, arquitectura y lógica espacial.
 
-* <a href="https://github.com/Nico-Segovia/ZapAnalyzer.Desktop/blob/main/docs/USO_IA.md" target="_blank"><b>Informe de Implementación de IA Estratégica</b></a>: Herramientas utilizadas, prompts de ingeniería y validación crítica.
+* <a href="https://github.com/Nico-Segovia/ZapAnalyzer.Desktop/blob/main/docs/USO_IA.md" target="_blank"><b>Informe de Implementación de IA Estratégica (USO_IA)</b></a>: Herramientas utilizadas, prompts de ingeniería y validación crítica.
 
 ---
 
