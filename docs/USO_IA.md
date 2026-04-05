@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img src="docs/resources/logo-blanco.png" width="400" alt="ZAP Logo">
+  <img src="resources/logo-blanco.png" width="400" alt="ZAP Logo">
 </p>
 <br>
 
