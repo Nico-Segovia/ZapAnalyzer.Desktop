@@ -1,8 +1,18 @@
-# ZAP Analyzer | Auditoría Espacial 3D
+<br>
+
+<p align="center">
+  <img src="Assets/logo-blanco.png" width="400" alt="ZAP Logo">
+</p>
+<br>
+
+<h1 align="center">Prueba Técnica - Auditoría Espacial 3D</h1>
+
+<br>
 
 Solución técnica desarrollada para **ZAP ARQUITECTOS**, diseñada para la validación de esquemas y el análisis de relaciones espaciales (Intersección, Contención y Aislamiento) en colecciones de prismas rectangulares (AABB).
 
 ---
+<br>
 
 ## 🛠️ Especificaciones Técnicas
 - **Framework:** .NET 10.0 (WPF)
@@ -38,7 +48,7 @@ En la raíz del proyecto se adjuntan dos archivos para testing:
 ## 📸 Guía Visual de Uso
 
 ### 1. Interfaz Principal
-Al iniciar, la aplicación presenta una interfaz minimalista alineada a la identidad corporativa de ZAP.
+Al iniciar, la aplicación presenta una interfaz minimalista alineada a la identidad corporativa de ZAP (inspirado en su web oficial).
 ![Interfaz de inicio](docs/screenshots/01_inicio.png)
 
 ### 2. Procesamiento de Datos
@@ -56,5 +66,5 @@ El botón "Descargar Resultados" genera un archivo técnico `.txt` formateado pa
 ---
 
 ## ⚖️ Licencia y Uso
-Prueba técnica de nivel senior para el proceso de selección de **ZAP ARQUITECTOS**. 
-Desarrollado con enfoque en calidad de software y UX arquitectónica.
+Prueba técnica para el proceso de selección de **ZAP ARQUITECTOS**. 
+Desarrollado con enfoque en calidad de software y UX intuitivo.
