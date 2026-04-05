@@ -43,15 +43,15 @@ Al iniciar, la aplicación presenta una interfaz minimalista alineada a la ident
 
 ### 2. Procesamiento de Datos
 Al cargar un JSON, los indicadores (Cards) muestran métricas precisas. Se detectan objetos aislados listados por ID y Nombre.
-![Datos procesados](docs/screenshots/02_procesamiento.png)
+![Datos procesados](docs/screenshots/02_analisis_general.png)
 
 ### 3. Inspección Técnica de Errores
 Haciendo clic sobre cualquier objeto en "Detalles de Validación", se despliega el código fuente resaltando las líneas exactas que fallan.
-![Inspección de errores](docs/screenshots/03_inspeccion_error.png)
+![Inspección de errores](docs/screenshots/03_inspeccion_detallada.png)
 
 ### 4. Reporte de Auditoría
 El botón "Descargar Resultados" genera un archivo técnico `.txt` formateado para su lectura profesional.
-![Reporte descargado](docs/screenshots/04_reporte.png)
+![Reporte descargado](docs/screenshots/04_reporte_final.png)
 
 ---
 
