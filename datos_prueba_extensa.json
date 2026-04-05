@@ -1,0 +1,43 @@
+[
+
+  { "Id": 1, "Name": "Losa de Fundacion", "Category": "Foundation", "X": 0, "Y": -1, "Z": 0, "Width": 100, "Height": 1, "Depth": 100 },
+  { "Id": 2, "Name": "Pilar A1", "Category": "Column", "X": 5, "Y": 0, "Z": 5, "Width": 0.5, "Height": 3, "Depth": 0.5 },
+  { "Id": 3, "Name": "Pilar A2", "Category": "Column", "X": 95, "Y": 0, "Z": 5, "Width": 0.5, "Height": 3, "Depth": 0.5 },
+  { "Id": 4, "Name": "Muro Perimetral Norte", "Category": "Wall", "X": 0, "Y": 0, "Z": 0, "Width": 100, "Height": 3, "Depth": 0.2 },
+  
+
+  { "Id": 5, "Name": "Modulo Oficina 01", "Category": "Room", "X": 20, "Y": 0, "Z": 20, "Width": 10, "Height": 3, "Depth": 10 },
+  { "Id": 6, "Name": "Escritorio BIM", "Category": "Furniture", "X": 22, "Y": 0, "Z": 22, "Width": 2, "Height": 0.8, "Depth": 1.2 },
+  { "Id": 7, "Name": "Notebook Pro", "Category": "Equipment", "X": 22.5, "Y": 0.8, "Z": 22.5, "Width": 0.4, "Height": 0.02, "Depth": 0.3 },
+
+
+  { "Id": 8, "Name": "Viga Maestra X", "Category": "Beam", "X": 10, "Y": 2.8, "Z": 10, "Width": 80, "Height": 0.4, "Depth": 0.4 },
+  { "Id": 9, "Name": "Viga Transversal A", "Category": "Beam", "X": 30, "Y": 2.8, "Z": 5, "Width": 0.4, "Height": 0.4, "Depth": 20 },
+  { "Id": 10, "Name": "Viga Transversal B", "Category": "Beam", "X": 60, "Y": 2.8, "Z": 5, "Width": 0.4, "Height": 0.4, "Depth": 20 },
+
+
+  { "Id": 11, "Name": "Grúa de Obra (Lejos)", "Category": "Temporary", "X": 500, "Y": 0, "Z": 500, "Width": 5, "Height": 30, "Depth": 5 },
+  { "Id": 12, "Name": "Contenedor de Residuos", "Category": "Logistics", "X": -100, "Y": 0, "Z": -100, "Width": 4, "Height": 2, "Depth": 2 },
+
+
+  { "Id": 13, "Name": "Plataforma Inferior", "Category": "Slab", "X": 150, "Y": 0, "Z": 0, "Width": 10, "Height": 2, "Depth": 10 },
+  { "Id": 14, "Name": "Caja Apilada Superior", "Category": "Box", "X": 150, "Y": 2, "Z": 0, "Width": 5, "Height": 2, "Depth": 5 },
+
+  { "Id": 1, "Name": "Id Duplicado", "Category": "Test", "X": 0, "Y": 0, "Z": 0, "Width": 1, "Height": 1, "Depth": 1 },
+  { "Id": 15, "Name": "Categoria Nula", "Category": null, "X": 10, "Y": 10, "Z": 10, "Width": 1, "Height": 1, "Depth": 1 },
+  { "Id": 16, "Name": "Categoria Vacia", "Category": "", "X": 11, "Y": 11, "Z": 11, "Width": 1, "Height": 1, "Depth": 1 },
+  { "Id": 17, "Name": "Ancho Cero", "Category": "Invalid", "X": 20, "Y": 20, "Z": 20, "Width": 0, "Height": 5, "Depth": 5 },
+  { "Id": 18, "Name": "Alto Negativo", "Category": "Invalid", "X": 30, "Y": 30, "Z": 30, "Width": 5, "Height": -10, "Depth": 5 },
+  { "Id": 19, "Name": "Profundidad Invalida", "Category": "Invalid", "X": 40, "Y": 40, "Z": 40,"Width": 5, "Height": 5,"Depth": -0.5 },
+  
+
+  { "Id": 2, "Name": "Desastroso", "Category": "", "X": 0, "Y": 0, "Z": 0, "Width": -1, "Height": 0, "Depth": -99 },
+
+
+  { "Id": 20, "Name": "Ventana Tipo 01", "Category": "Opening", "X": 40, "Y": 1, "Z": 0.1, "Width": 1.5, "Height": 1.2, "Depth": 0.1 },
+  { "Id": 21, "Name": "Puerta Principal", "Category": "Opening", "X": 10, "Y": 0, "Z": 0.1, "Width": 0.9, "Height": 2.1, "Depth": 0.1 },
+  { "Id": 22, "Name": "Luminaria Techo A", "Category": "Electrical", "X": 25, "Y": 2.9, "Z": 25, "Width": 0.3, "Height": 0.1, "Depth": 0.3 },
+  { "Id": 23, "Name": "Luminaria Techo B", "Category": "Electrical", "X": 27, "Y": 2.9, "Z": 25, "Width": 0.3, "Height": 0.1, "Depth": 0.3 },
+  { "Id": 24, "Name": "Escalera Tramo 1", "Category": "Circulation", "X": 50, "Y": 0, "Z": 50, "Width": 1.2, "Height": 3, "Depth": 4 },
+  { "Id": 25, "Name": "Tabique Drywall", "Category": "Wall", "X": 50, "Y": 0, "Z": 20, "Width": 0.1, "Height": 3, "Depth": 15 }
+]

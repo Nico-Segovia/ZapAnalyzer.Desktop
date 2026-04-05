@@ -1,0 +1,67 @@
+﻿<Application x:Class="ZapAnalyzer.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:helpers="clr-namespace:ZapAnalyzer.Desktop.Helpers"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Registro de Conversores de Infraestructura UI -->
+        <helpers:IntToVisibilityConverter x:Key="IntToVisibilityConverter"/>
+        <helpers:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter"/>
+
+        <!-- Paleta de Identidad Corporativa - ZAP ARQUITECTOS -->
+        <SolidColorBrush x:Key="ZapBlack" Color="#171817"/>
+        <SolidColorBrush x:Key="ZapGrey" Color="#E9E9E7"/>
+        <SolidColorBrush x:Key="ZapWhite" Color="#F8F8F8"/>
+        <SolidColorBrush x:Key="ZapTextGrey" Color="#BDBDB5"/>
+        <SolidColorBrush x:Key="ZapTextBlack" Color="#000000"/>
+        <SolidColorBrush x:Key="ZapTextWhite" Color="#FFFFFF"/>
+
+        <!-- Estilo ModernButton: Implementa interacción visual mediante Triggers de estado -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ZapBlack}"/>
+            <Setter Property="Foreground" Value="{StaticResource ZapTextWhite}"/>
+            <Setter Property="Padding" Value="20,10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}" 
+                                CornerRadius="4" 
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter x:Name="content" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- Feedback visual al pasar el cursor (Hover) -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#2A2B2A"/>
+                                <Setter Property="Foreground" Value="{StaticResource ZapTextGrey}"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <!-- Feedback de presión -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                            <!-- Estado inhabilitado -->
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Opacity" Value="0.3"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Estilo DataCard: Contenedor para métricas y resultados analíticos -->
+        <Style x:Key="DataCard" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ZapGrey}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Application.Resources>
+</Application>
