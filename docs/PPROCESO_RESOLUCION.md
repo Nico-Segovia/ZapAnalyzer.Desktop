@@ -41,3 +41,9 @@ Debido al límite de tiempo establecido para la prueba, se tomaron decisiones es
 Se diseñaron escenarios un poco mas complejos en el archivo `datos_prueba_extensa.json` para validar la robustez del sistema:
 - **Contención en Cascada:** Validación de jerarquías complejas (Objeto > Habitación > Edificio).
 - **Precisión de Límite:** Escenarios donde los prismas se tocan exactamente en sus caras pero no comparten volumen (deben ser detectados como aislados para evitar falsos positivos de colisión).
+
+## 7. Mejoras y Ampliaciones Futuras
+De contar con una segunda etapa de desarrollo, el "Roadmap" técnico se centraría en:
+1. **Soporte OBB (Oriented Bounding Boxes):** Evolución del motor geométrico para procesar colisiones en objetos con rotaciones arbitrarias, adaptándose a la complejidad real de un proyecto de gran escala.
+2. **Visualización 3D Interactiva:** Integración de un visor basado en **DirectX** o **Vulkan** para permitir la inspección visual in-situ de las interferencias detectadas.
+3. **Interoperabilidad BIM:** Implementación de conectores para la ingesta y exportación de esquemas en formatos estándar de la industria como **IFC**, o integración directa mediante la API de **Autodesk Revit (.rvt)** y **Archicad**.
