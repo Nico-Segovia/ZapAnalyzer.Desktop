@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img src="Assets/logo-blanco.png" width="400" alt="ZAP Logo">
+  <img src="docs/resources/logo-blanco.png" width="400" alt="ZAP Logo">
 </p>
 <br>
 
@@ -18,8 +18,15 @@ Solución técnica desarrollada para **ZAP ARQUITECTOS**, diseñada para la vali
 - **Framework:** .NET 10.0 (WPF)
 - **Arquitectura:** MVVM (Model-View-ViewModel)
 - **Lenguaje:** C# 12
-- **Patrones y Principios:** SOLID, Clean Code, Single Responsibility (SRP).
-- **Rendimiento:** Análisis espacial optimizado mediante colecciones de tipo `HashSet` para pares únicos.
+- **Principios:** SOLID, Clean Code, SRP.
+
+---
+
+## 📄 Documentación Obligatoria
+Para cumplir con los requerimientos de la prueba técnica (Puntos 10.2 y 10.3), se adjuntan los siguientes informes detallados:
+
+*   [**Informe de Proceso de Resolución**](docs/PROCESO_RESOLUCION.md): Decisiones de diseño, arquitectura y lógica espacial.
+*   [**Informe de Uso de IA**](docs/USO_IA.md): Herramientas utilizadas, prompts representativos y validación crítica de código.
 
 ---
 
